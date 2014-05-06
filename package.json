@@ -1,0 +1,25 @@
+{
+  "name": "pathinfo.js",
+  "version": "0.0.0",
+  "description": "Find information of the file being executed.",
+  "main": "lib/pathinfo.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha-phantomjs test/index.html"
+  },
+  "repository": "https://github.com/gustavnikolaj/ilocalstorage",
+  "author": "Gustav Nikolaj <gustavnikolaj@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/gustavnikolaj/pathinfo.js/issues"
+  },
+  "homepage": "https://github.com/gustavnikolaj/pathinfo.js",
+  "devDependencies": {
+    "unexpected": "^3.1.6",
+    "mocha": "^1.18.2",
+    "mocha-phantomjs": "^3.3.2",
+    "phantomjs": "^1.9.7-5"
+  }
+}
